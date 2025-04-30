@@ -20,7 +20,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative py-20 px-6 sm:px-10 md:px-16 lg:px-24 text-white text-center overflow-hidden"
+      className="relative py-20 px-6 sm:px-10 md:px-20 lg:px-32 text-white text-center overflow-hidden"
     >
       {/* Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[900px] bg-[radial-gradient(circle,_#7c3aed_0%,_transparent_70%)] opacity-20 blur-[180px] z-0" />
@@ -34,7 +34,7 @@ export default function Contact() {
       )}
 
       {/* Contact Card */}
-      <div className="relative z-10 max-w-5xl mx-auto bg-gradient-to-b from-violet-800/30 to-black/40 border border-white/10 backdrop-blur-md px-6 sm:px-10 py-14 rounded-3xl shadow-xl">
+      <div className="relative z-10 max-w-6xl mx-auto bg-gradient-to-b from-violet-800/30 to-black/40 border border-white/10 backdrop-blur-md px-6 sm:px-10 py-16 rounded-3xl shadow-xl">
         <div className="inline-flex items-center justify-center px-4 py-1.5 mb-5 rounded-full text-sm bg-white/5 border border-white/10 backdrop-blur text-white">
           <span>✨ Need Any Help?</span>
         </div>

@@ -26,8 +26,8 @@ export default function Page() {
         <Header />
         <Home />
         <Features />
-        <Services />
         <About />
+        <Services />
         <Contact />
         <PostContact />
         <Footer />

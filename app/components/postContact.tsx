@@ -8,7 +8,7 @@ export default function PostContact() {
       <div className="absolute inset-0 bg-[#09090B] z-[-1]" />
 
       {/* CTA Section */}
-      <div className="relative max-w-5xl mx-auto bg-gradient-to-br from-[#1f0933]/70 to-[#0f0a2f]/80 rounded-3xl border border-white/10 text-center px-6 sm:px-10 py-16 overflow-hidden z-10">
+      <div className="relative max-w-6xl mx-auto bg-gradient-to-br from-[#1f0933]/70 to-[#0f0a2f]/80 rounded-3xl border border-white/10 text-center px-6 sm:px-10 py-16 overflow-hidden z-10">
         {/* Star Grid */}
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-cover opacity-10 pointer-events-none" />
 

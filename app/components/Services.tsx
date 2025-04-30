@@ -78,12 +78,11 @@ export default function Services() {
       </h3>
 
       {/* Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto relative z-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto relative z-10">
         {visibleServices.map(({ title, desc, icon }, index) => (
           <div
             key={title}
-            className={`relative p-6 bg-black/10 backdrop-blur-md border border-white/10 text-left rounded-md transition-opacity transform
-            opacity-0 animate-fadeIn`}
+            className="relative p-6 bg-black/10 backdrop-blur-md border border-white/10 text-left rounded-md transition-opacity transform opacity-0 animate-fadeIn"
             style={{
               animationDelay: `${index * 100}ms`,
               animationFillMode: "forwards",
