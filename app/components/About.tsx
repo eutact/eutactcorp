@@ -26,7 +26,7 @@ export default function About() {
             quickly kickstart your AI startup.
           </p>
           <button className="bg-gradient-to-r from-[#6366F1] to-[#A855F7] px-6 py-3 rounded-lg font-medium text-white text-sm sm:text-base hover:scale-105 transition-transform shadow-md">
-            Start Writing – It's Free
+            Start Writing – It&rsquo;s Free
           </button>
         </div>
 
